@@ -1,16 +1,81 @@
-# edulearn
+# EduLearn – Flutter Learning App
 
-A new Flutter project.
+EduLearn is a Flutter-based learning application built as part of an assignment.  
+The app supports **role-based authentication**, **course management**, and **student learning features** using **Firebase** as the backend.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 Authentication
+- Email & Password login
+- Email verification
+- Google Sign-In
+- Forgot password
+- Persistent login session
+- Role-based access:
+  - Student
+  - Admin
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👨‍🎓 Student Module
+- View list of available courses
+- Course detail screen with:
+  - Video (YouTube player)
+  - Web-based document/PDF viewer (in-app)
+  - MCQs with instant feedback
+- Student profile:
+  - Update personal details
+  - Logout with confirmation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🧑‍💼 Admin Module
+- Admin dashboard
+- Add new courses
+- Add MCQs for courses
+- View all courses
+- Manage students (basic structure implemented)
+- Admin profile & logout
+
+### 🎨 UI & Architecture
+- Clean UI using custom theme, colors, and text styles
+- Responsive design (mobile-first)
+- GetX for:
+  - State management
+  - Routing
+  - Dependency injection
+- MVC / Clean Architecture approach:
+  - `controller`
+  - `service`
+  - `view`
+  - `widgets`
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**
+- **Firebase**
+  - Firebase Authentication
+  - Cloud Firestore
+- **GetX**
+- **YouTube Player**
+- **InAppWebView**
+
+---
+
+## 📁 Project Structure (Simplified)
+
+## ▶️ How to Run the App (Locally)
+
+### 1️⃣ Prerequisites
+- Flutter SDK installed
+- Android Studio / VS Code
+- Android device or emulator
+- Firebase project configured
+
+### 2️⃣ Clone the Project
+```bash
+git clone <repository-url>
+cd edulearn
+
+flutter pub get
+flutter run
