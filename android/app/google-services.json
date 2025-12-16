@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862528270244",
+    "project_id": "edulearn-81b9c",
+    "storage_bucket": "edulearn-81b9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862528270244:android:00aba52da29fe386109b31",
+        "android_client_info": {
+          "package_name": "com.example.edulearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862528270244-bqrggng0kinhjl6c4s7nsacls4kvr7h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edulearn",
+            "certificate_hash": "7b7f68390e5567073f0b41ac14de1827a429315e"
+          }
+        },
+        {
+          "client_id": "862528270244-6jk6gug1hs2fpo24ibbf9if8ep1bgajj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKCfJpDmpCaozDY_tScJVEjtiOME75H-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862528270244-6jk6gug1hs2fpo24ibbf9if8ep1bgajj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
